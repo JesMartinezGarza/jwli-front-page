@@ -1,0 +1,898 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+body > header > nav{
+    height: auto;
+    width: 100%;
+    text-align: center;
+
+
+    background-color: white;
+    float:left;
+}
+
+body > header > nav > ul{
+    text-align: center;
+    display: inline-block;
+    float: none;
+
+    width: 100%;
+    height: 50px;
+}
+
+body > header > nav > ul > li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+
+    height: 35px;
+    width: 10%;
+
+    margin: 5px 1% 0px 0px;
+    padding: 7px 0px 0px 0px;
+
+    background-color: white;
+}
+
+body > header > nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+
+    padding: 1px 0px 1px 2px;
+}
+
+body > header > nav > ul > #apply{
+    background: #333942;
+}
+
+body > header > nav > ul > #apply > a{
+
+    background-color: #333942;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    background-color: #F0F3F5;
+    float: left;
+}
+
+
+main > #left{
+    height: auto;
+    width: 60%;
+
+    background-color: #F0F3F5;
+
+    clear:both;
+    float:left;
+}
+
+main > #left > a{
+    width: 50%;
+    height: auto;
+
+    display: inline-block;
+    text-align: center;
+    margin: 0px 25% 0px 25%;
+}
+
+main > #left > a > img{
+    height:auto;
+    width: 75%;
+
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: center;
+    float:none;
+}
+
+main > #left > h1{
+    height:auto;
+    width: 83%;
+
+    font-size: 2.5em;
+    font-weight: normal;
+
+    margin: 0px 12% 0px 5%;
+    padding: 0px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: left;
+    float:none;
+}
+
+main > #left > p{
+    height:auto;
+    width: 83%;
+
+    font-weight: lighter;
+    font-size: 1.2em;
+
+    margin: 10px 12% 0px 5%;
+    padding: 0px;
+
+    float:left;
+}
+
+main > #left > p + p{
+    height:auto;
+    width: 60%;
+
+    font-weight: lighter;
+    font-size: .95em;
+
+    margin: 5px 35% 00px 5%;
+    padding: 30px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: left;
+    float:none;
+}
+
+main > #left > input{
+    height:50px;
+    width: 50%;
+
+    margin: 10px 0px 50px 5%;
+    border: 1px solid #B7C5CF;
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+
+    font-size: 1.25em;
+
+    clear: both;
+    display: inline-block;
+    text-align: left;
+    float:none;
+}
+
+main > #left > span{
+
+    height:50px;
+    width: 20%;
+
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+
+    padding: 3px 0px 0px 0px;
+
+    background-color: #B7C5CF;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+main > #left > span > a{
+    height:auto;
+    width: 100%;
+
+    color:white;
+    text-decoration: none;
+
+    margin: 0px 0px 0px 0px;
+    padding: 11px 0px 0px 0px;
+
+    font-size: 1.20em;
+    text-align: center;
+    display: inline-block;
+    float: none;
+}
+
+
+main > #right{
+    height: auto;
+    width: 40%;
+
+    background-color: #F0F3F5;
+
+    float:left;
+}
+
+main > #right > img{
+    height:500px;
+    width: 60%;
+
+    float: none;
+    display: inline-block;
+    text-align: center;
+
+    margin: 0px 10% 0px 10%;
+    padding: 0px 0px 0px 0px;
+}
+
+#missionStatement{
+    height: auto;
+    width: 100%;
+
+    background-color: white;
+
+    clear: both;
+    float:left;
+}
+
+#missionStatement > h1{
+    height:auto;
+    width: 80%;
+
+    font-size: 2.25em;
+    font-weight: normal;
+
+    margin: 50px 10% 80px 10%;
+    padding: 0px;
+
+    display: inline-block;
+    text-align: center;
+}
+
+#missionStatement > p{
+    height:auto;
+    width: 35%;
+
+    margin: 10px 1% 50px 13%;
+    padding: 0px 1% 0px 0px;
+
+    font-size: 1.25em;
+    line-height: 1.5em;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+
+#missionStatement > p > span{
+    height:auto;
+    width: auto;
+
+    font-weight: bold;
+
+    margin: 10px 0px 10px 0px;
+    border-top: 5px solid #FEDDF0;
+    border-radius: 3px;
+    padding: 9px 0px 0px 0px;
+
+    display: inline-block;
+    float: none;
+    text-align: left;
+}
+
+#missionStatement > p + p{
+    height:auto;
+    width: 35%;
+
+    margin: 10px 0px 0px 1%;
+    padding: 0px 0% 0px 1%;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+
+#missionStatement >  #endDescription{
+    height:auto;
+    width: 70%;
+
+    margin: 10px 15% 100px 15%;
+    padding: 0px;
+
+    line-height: 1.5em;
+
+    color: #888b8b;
+    font-style: italic;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+body > #ourHistory{
+    float: left;
+    width: 100%;
+    height: fit-content;
+    background-color: #F0F3F5;
+}
+
+#ourHistory > #left{
+    height: fit-content;
+    width: 60%;
+
+    background-color: #F0F3F5;
+
+    clear: both;
+    float:left;
+}
+
+#ourHistory > #left > h1{
+    height: auto;
+    width: 200px;
+
+    margin: 25px 0px 0px 50px;
+    padding: 5px 0px 0px 5px;
+
+    font-size: 2em;
+    font-weight: normal;
+
+    float:left;
+}
+
+#ourHistory > #left > p{
+
+    width: 80%;
+
+    margin: 5px 0px 10px 50px;
+    padding: 5px 0px 0px 5px;
+
+    font-size: 1.15em;
+    line-height: 1.5em;
+
+    display: inline-block;
+    clear: both;
+    float:none;
+}
+
+#ourHistory > #right{
+    height: fit-content;
+    width: 40%;
+
+    background-color: #F0F3F5;
+    float:left;
+}
+
+#ourHistory > #right > img{
+    height: auto;
+    width: 80%;
+
+    margin: 50px 10% 5px 10%;
+    padding: 5px 0px 0px 5px;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#ourHistory > #right > span{
+    height: auto;
+    width: 25%;
+
+
+    margin: 0px 37.5% 40px 37.5%;
+    padding: 5px 0px 0px 5px;
+
+    text-align: center;
+
+    color: #888b8b;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#ourHistory > #right > span + img{
+
+    height: auto;
+    width: 80%;
+
+    margin: 0px 10% 5px 10%;
+    padding: 5px 0px 0px 5px;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+
+#whoWeAre{
+    height: auto;
+    width: 100%;
+
+    background-color: white;
+
+    text-align: center;
+    clear: both;
+    float:left;
+}
+
+#whoWeAre > h1{
+    height: 50px;
+    width: 60%;
+
+    background-color: white;
+
+    margin: 50px 20% 30px 20%;
+
+    font-weight: normal;
+    font-size: 2.25em;
+
+    display: inline-block;
+    text-align: center;
+    float:none;
+}
+
+#founderAtsuko{
+    height: auto;
+    width: 90%;
+
+    margin: 0px 5% 20px 5%;
+
+    border: 1px solid #dadede;
+    border-radius: 3px;
+
+    clear: both;
+    display: inline-block;
+    float:none;
+}
+
+#founderAtsuko > #left{
+    height: auto;
+    width: 35%;
+
+    display: inline-block;
+    text-align: left;
+    float: left;
+}
+
+#founderAtsuko > #left > img{
+    height: auto;
+    width: 70%;
+
+
+    margin: 35px 0px 35px 35px;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+
+#founderAtsuko > #right{
+    height: auto;
+    width: 65%;
+
+    background-color: white;
+
+    margin: 35px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    line-height: 1.95em;
+    font-size: 1.1em;
+} 
+
+#founderAtsuko > #right > h2{
+    height: auto;
+    width: 100%;
+
+    font-size: 1em;
+
+    background-color: white;
+
+
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+
+#founderAtsuko > #right > p{
+    height: auto;
+    width: 100%;
+
+    background-color: white;
+    color: #888b8b;
+
+    font-size: 1.1em;
+    line-height: 1.75em;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+} 
+
+
+
+#fishFamily{
+    height: auto;
+    width: 50%;
+
+    background-color: white;
+
+    text-align: left;
+    float: left;
+}
+
+#fishFamily > h1{
+    height: auto;
+    width: 90%;
+
+    background-color: white;
+
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #888b8b;
+
+    margin: 65px 0px 20px 10%;
+    padding: 0px 0px 0px 0px;
+}
+
+#fishFamily > p{
+    height: auto;
+    width: 90%;
+
+    background-color: white;
+
+    line-height: 1.9em;
+    font-size: 1.15em;
+    color: #888b8b;
+
+    margin: 0px 0px 50px 10%;
+    padding: 0px 0px 0px 0px;
+}
+
+#simmonsSchool{
+    height: auto;
+    width: 50%;
+
+    background-color: white;
+
+    text-align: left;
+    float: left;
+}
+
+#simmonsSchool > img{
+    height: auto;
+    width: 150px;
+
+    background-color: white;
+
+    margin: 25px 50px 0px 5%;
+    padding: 0px 0px 0px 0px;
+}
+
+#simmonsSchool > p{
+    height: auto;
+    width: 90%;
+
+    background-color: white;
+
+    line-height: 1.9em;
+    font-size: 1.15em;
+    color: #888b8b;
+
+    margin: 0px 5% 50px 5%;
+    padding: 0px 0px 0px 0px;
+}
+
+
+#signUp{
+    height: auto;
+    width: 100%;
+
+    background-color: #B7C5D0;
+
+    clear: both;
+    float:left;
+}
+
+#signUp > h1{
+    height: auto;
+    width: 45%;
+
+    background-color: #B7C5D0;
+
+    font-weight: normal;
+    font-size: 1.5em;
+
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+
+    color: white;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#signUp > input{
+    height:50px;
+    width: 30%;
+
+    margin: 11px 0px 0px 0px;
+    border: 1px solid #dadede;
+    border-radius: 3px;
+    padding: 0px 0px 0px 15px;
+
+    font-size: 1.3em;
+    font-weight: normal;
+    color: #f4f5f5;
+
+    display: inline-block;
+    text-align: left;
+    float: none;
+}
+
+#signUp > span{
+    height:50px;
+    width: 15%;
+
+    margin:  10px 0px 0px 1%;
+    border: 1px solid #dadede;
+    border-radius: 3px;
+    padding: 12.5px 0px 0px 0px;
+
+    background-color: #8E9CA3;
+    color: white;
+
+    text-align: center;
+    font-size: 1.3em;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+#signUp > span > a{
+    color:white;
+    text-decoration: none;
+}
+
+
+footer{
+    height: fit-content;
+    width: 100%;
+
+    background-color: #8E9CA3;
+
+    color: white;
+
+    clear: both;
+    float: left;
+}
+
+footer > nav{
+    width: 100%;
+    height: auto;
+}
+
+footer > nav > h3{
+    color: white;
+
+    margin: 40px 0px 20px 5%;
+
+    width: 59%;
+    height: 39.8px;
+
+    border-bottom: 1px solid white;
+    
+    font-size: 1em;
+    text-align: left;
+    float: left;
+}
+
+footer > nav > #socials{
+    list-style-type: none;
+
+    margin: 40px 5% 20px 0px;
+    width: 31%;
+    height: 39.8px;
+
+    border-bottom: 1px solid white;
+
+    display: inline-block;
+    text-align: right;
+    float: none;
+}
+
+footer > nav > #socials > li{
+    list-style-type: none;
+
+    padding: 0px 1% 0px 1%;
+    font-size: 1em;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+footer > nav > #Home{
+
+    list-style-type: none;
+    margin: 0px 2% 20px 5%;
+
+    width: 10%;
+    float: left;
+}
+
+footer > nav > #Home > li{
+    margin: 10px 0px 10px 0px;
+
+    display: block;
+    text-align: center;
+    float: none;
+}
+
+footer > nav > #Program{
+
+    list-style-type: none;
+    margin: 0px 2% 20px 2%;
+
+    width: 15%;
+
+    text-align: center;
+    float: left;
+}
+
+footer > nav > #Program > li{
+    margin: 0px 0px 10px 0px;
+
+    display: block;
+    text-align: center;
+    float: none;
+}
+
+footer > nav > #JWLIA{
+    list-style-type: none;
+    margin: 0px 0px 20px 2%;
+
+    width: 10%;
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
+
+footer > nav > #JWLIA > li{
+    margin: 0px 0px 10px 0px;
+
+    display: block;
+    text-align: center;
+    float: none;
+}
+
+footer > nav > #miscellaneous{
+    list-style-type: none;
+
+    height: auto;
+    width: 45%;
+
+    margin: 0px 5% 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    display: inline;
+    float: right;
+}
+
+footer > nav > #miscellaneous > li{
+    list-style-type: none;
+
+    margin: 0px 0px 0px 2.5%;
+    padding: 0px 0px 0px 0px;
+
+    width: auto;
+    display: block;
+    float: right;
+}
+
+
+footer > nav > ul > li > a{
+    color:white;
+    text-decoration: none;
+
+    display: block;
+    text-align: center;
+    float: none;
+}
+
+
+
+nav > ul > .impossibleBurger{
+    display: none;
+}
+
+nav > ul > .impossibleBurger > a > img{
+    height: 25px;
+    width: 25px;
+}
+
+
+@media screen and (max-width: 1200px){
+    nav > ul > .impossibleBurger{
+    display: block;
+    float: left;
+    text-align: left;
+    margin: 5px 0px 0px 10%;
+    }
+    nav > ul > .impossibleBurger > a > img{
+        height: 45px;
+        width: 45px;
+    }
+
+    nav > ul > .buttonTemp{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1069px) {
+    main > #right{
+        display: none;
+    }
+    main > #left{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 896px) {
+    #missionStatement > p{
+        width: 80%;
+        height: fit-content;
+        clear: both;
+
+        display: inline-block;
+        text-align: left;
+        float: none;
+
+        margin: 0px 10% 20px 10%;
+        padding: 0px 0px 0px 0px;
+    }
+    #missionStatement > p + p{
+        width: 80%;
+        height: fit-content;
+        clear: both;
+
+        display: inline-block;
+        text-align: left;
+        float: none;
+
+        margin: 0px 10% 20px 10%;
+        padding: 0px 0px 0px 0px;
+    }
+
+}
+  
+@media screen and (max-width: 696px) {
+    #ourHistory > #left{
+        width: 100%;
+    }
+    #ourHistory > #right{
+        display: none;
+    }
+    #whoWeAre{
+        display: none;
+    }
+    #founderAtsuko{
+        display: none;
+    }
+    #fishFamily{
+        width: 100%;
+    }
+    #simmonsSchool{
+        width: 100%;
+    }
+
+}
+
+/*
+
+
+@media screen and (max-width: 1266px){
+    body > main > h1{
+        margin: 90px 0px 0px 0px;
+    }
+
+
+}
+  
+ */ */
